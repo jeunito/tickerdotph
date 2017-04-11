@@ -1,3 +1,6 @@
 tickerph.egg-info/
 *.swp
 *.pyc
+build/
+dist/
+*.zip
