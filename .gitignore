@@ -4,3 +4,4 @@ tickerph.egg-info/
 build/
 dist/
 *.zip
+.cache
