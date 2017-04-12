@@ -4,7 +4,11 @@ setup(
     name="tickerph",
     version="0.1",
     packages=["tickerdotph"],
-    scripts=["bin/tickerdotph"],
+    entry_points={
+        "console_scripts": [
+            "tickerdotph = tickerdotph:main"
+        ]
+    },
     install_requires=[
         "vcrpy",
         "nose",
