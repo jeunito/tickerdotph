@@ -7,6 +7,7 @@ clean:
 	rm -fv *.zip
 	rm -rfv build
 	find . -type f -name "*.pyc" -delete
+	rm -rfv *.egg-info
 
 build:
 	pip install -t build lxml
