@@ -8,6 +8,7 @@ clean:
 	rm -rfv build
 	find . -type f -name "*.pyc" -delete
 	rm -rfv *.egg-info
+	rm -v .bash_history
 
 build:
 	pip install -t build lxml
