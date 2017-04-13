@@ -1,5 +1,5 @@
 from tickerdotph.institutions import bpi
 import json
 
-def main():
+def main(*args):
     print json.dumps(bpi.funds())
