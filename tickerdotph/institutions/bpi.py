@@ -12,8 +12,9 @@ def funds():
     for row in html_page.cssselect("table tbody tr")[3:14]:
         row_elements = row.cssselect("td")
         fund_name = row_elements[FUND_NAME].text_content()
+        fund_ticker = filter(str.isupper, fund_name)
         fund_price = float(row_elements[FUND_PRICE].text_content())
 
-        bpi_funds[fund_name] = fund_price
+        bpi_funds[fund_ticker] = fund_price
 
     return bpi_funds
