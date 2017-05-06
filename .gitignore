@@ -6,3 +6,5 @@ dist/
 *.zip
 .cache
 .bash_history
+*.tfstate
+*.backup
