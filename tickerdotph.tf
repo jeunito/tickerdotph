@@ -29,6 +29,7 @@ resource "aws_lambda_function" "tickerdotph" {
 	runtime = "python2.7"
 	description = "Backend for tickerdotph"
 	role = "${aws_iam_role.tph_www.arn}"
+	source_code_hash = "${base64sha256(file("tickerdotph.zip"))}"
 }
 
 resource "aws_api_gateway_rest_api" "tickerdotph" {
