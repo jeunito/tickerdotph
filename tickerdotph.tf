@@ -47,6 +47,10 @@ resource "aws_api_gateway_method" "tph_api_gateway_method_get" {
 	resource_id = "${aws_api_gateway_resource.tph_api_gateway_resource_fund.id}"
 	http_method = "GET"
 	authorization = "NONE"
+
+	request_parameters = {
+		"method.request.querystring.name" = false
+	}
 }
 
 resource "aws_api_gateway_integration" "tph_api_gateway_integration_backend" {
@@ -56,6 +60,15 @@ resource "aws_api_gateway_integration" "tph_api_gateway_integration_backend" {
 	integration_http_method = "POST"
 	type = "AWS"
 	uri = "arn:aws:apigateway:${var.region}:lambda:path/2015-03-31/functions/${aws_lambda_function.tickerdotph.arn}/invocations"
+
+	request_templates  {
+		 "application/json" = <<EOF
+{
+	 "name" : "$input.params('name')"
+}
+		EOF
+	}
+	passthrough_behavior = "WHEN_NO_MATCH"
 }
 
 resource "aws_api_gateway_method_response" "tph_api_gateway_method_response_200" {
