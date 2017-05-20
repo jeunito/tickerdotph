@@ -94,3 +94,9 @@ resource "aws_lambda_permission" "tph_aws_lambda_permission" {
 
   source_arn = "arn:aws:execute-api:${var.region}:${var.accountid}:${aws_api_gateway_rest_api.tickerdotph.id}/*/${aws_api_gateway_method.tph_api_gateway_method_get.http_method}/fund"
 }
+
+resource "aws_api_gateway_deployment" "dev" {
+	depends_on = [ "aws_api_gateway_integration.tph_api_gateway_integration_backend" ]
+	rest_api_id = "${aws_api_gateway_rest_api.tickerdotph.id}"
+	stage_name = "d"
+}
