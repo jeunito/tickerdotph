@@ -1,5 +1,6 @@
 variable "accountid" {}
 variable "region" {}
+variable "tph_domain" {}
 
 provider "aws" {
 	region = "${var.region}"
@@ -99,4 +100,19 @@ resource "aws_api_gateway_deployment" "dev" {
 	depends_on = [ "aws_api_gateway_integration.tph_api_gateway_integration_backend" ]
 	rest_api_id = "${aws_api_gateway_rest_api.tickerdotph.id}"
 	stage_name = "d"
+}
+
+resource "aws_route53_zone" "tph_domain" {
+	name = "${var.tph_domain}"
+}
+
+resource "aws_route53_record" "dev_domain" {
+	zone_id = "${aws_route53_zone.tph_domain.zone_id}"
+	name    = "dev.${var.tph_domain}"
+	type    = "CNAME"
+	ttl     = "120"
+
+	records = [
+		"${aws_api_gateway_deployment.dev.id}.execute-api.${var.region}.amazonaws.com"
+	]
 }
