@@ -113,6 +113,6 @@ resource "aws_route53_record" "dev_domain" {
 	ttl     = "120"
 
 	records = [
-		"${aws_api_gateway_deployment.dev.id}.execute-api.${var.region}.amazonaws.com"
+		"${aws_api_gateway_rest_api.tickerdotph.id}.execute-api.${var.region}.amazonaws.com"
 	]
 }
