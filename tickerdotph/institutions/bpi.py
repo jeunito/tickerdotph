@@ -6,7 +6,9 @@ FUND_NAME = 0
 FUND_PRICE = 1
 
 def funds():
-    doc = urllib2.urlopen(FUND_PAGE).read()
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"}
+    req = urllib2.Request(FUND_PAGE, {}, headers) 
+    doc = urllib2.urlopen(req).read()
     html_page = html.document_fromstring(doc)
     bpi_funds = {}
     for row in html_page.cssselect("table tbody tr")[3:14]:

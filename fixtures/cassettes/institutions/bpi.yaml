@@ -1,11 +1,14 @@
 interactions:
 - request:
-    body: null
+    body: {}
     headers:
       Connection: [close]
+      Content-Length: ['0']
+      Content-Type: [application/x-www-form-urlencoded]
       Host: [www.bpiexpressonline.com]
-      User-Agent: [Python-urllib/2.7]
-    method: GET
+      User-Agent: ['Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101
+          Firefox/47.0']
+    method: POST
     uri: https://www.bpiexpressonline.com/p/1/689/investment-funds-daily-prices
   response:
     body: {string: "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\t<title>Investment\
@@ -85,8 +88,10 @@ interactions:
         \ rel=\"related_sites\" class=\"page-link\" target=\"_blank\">eBuena Mano</a></div><div><a\
         \ href=\"http://www.bpiindex.com\" rel=\"related_sites\" class=\"page-link\"\
         \ target=\"_blank\">BPI Index</a></div><div><a href=\"http://www.pamanapadala.com\"\
-        \ rel=\"related_sites\" class=\"page-link\" target=\"_blank\">BPI Pamana Padala</a></div></div></li>\t\
-        \t\t\t<li><a href=\"https://www.bpiexpressonline.com/p/1/776/about-bpi\" rel=\"\
+        \ rel=\"related_sites\" class=\"page-link\" target=\"_blank\">BPI Pamana Padala</a></div><div><a\
+        \ href=\"http://www.alfmmutualfunds.com/\" rel=\"related_sites\" class=\"\
+        page-link\" target=\"_blank\">ALFM Mutual Funds</a></div></div></li>\t\t\t\
+        \t<li><a href=\"https://www.bpiexpressonline.com/p/1/776/about-bpi\" rel=\"\
         about_us\" class=\"page-link\">About Us</a></li>\t\t\t\t<li><a href=\"https://www.bpiexpressonline.com/p/0/170/apply-now\"\
         \ rel=\"apply_now\" class=\"page-link\">Apply Now</a></li>\t\t\t\t<li><a href=\"\
         https://www.bpiexpressonline.com/promos\" rel=\"promos\" class=\"page-link\"\
@@ -98,14 +103,12 @@ interactions:
         \ rel=\"rates\" class=\"page-link\">Deposit \u2013 Business</a></div><div><a\
         \ href=\"https://www.bpiexpressonline.com/p/0/87/time-deposit-rates\" rel=\"\
         rates\" class=\"page-link\">Deposit \u2013 Time Deposit</a></div><div><a href=\"\
-        https://www.bpiexpressonline.com/p/1/118/auto-loan-interest-rates\" rel=\"\
-        rates\" class=\"page-link\">Auto Loan</a></div><div><a href=\"https://www.bpiexpressonline.com/p/1/122/housing-loan-interest-rates\"\
-        \ rel=\"rates\" class=\"page-link\">Housing Loan</a></div><div><a href=\"\
-        https://www.bpiexpressonline.com/p/1/84/ka-negosyo-loan-interest-rates\" rel=\"\
-        rates\" class=\"page-link\">Ka-Negosyo Loan</a></div><div><a href=\"https://www.bpiexpressonline.com/p/1/872/forex-rates\"\
-        \ rel=\"rates\" class=\"page-link\">Foreign Exchange</a></div><div><a href=\"\
-        https://www.bpiexpressonline.com/p/1/689/investment-funds-daily-prices\" rel=\"\
-        rates\" class=\"page-link\">Investment Fund Daily Prices</a></div><div><a\
+        https://www.bpiexpressonline.com/p/1/122/housing-loan-interest-rates\" rel=\"\
+        rates\" class=\"page-link\">Housing Loan</a></div><div><a href=\"https://www.bpiexpressonline.com/p/1/84/ka-negosyo-loan-interest-rates\"\
+        \ rel=\"rates\" class=\"page-link\">Ka-Negosyo Loan</a></div><div><a href=\"\
+        https://www.bpiexpressonline.com/p/1/872/forex-rates\" rel=\"rates\" class=\"\
+        page-link\">Foreign Exchange</a></div><div><a href=\"https://www.bpiexpressonline.com/p/1/689/investment-funds-daily-prices\"\
+        \ rel=\"rates\" class=\"page-link\">Investment Fund Daily Prices</a></div><div><a\
         \ href=\"https://www.bpiexpressonline.com/p/1/691/account-maintenance-and-transaction-fees\"\
         \ rel=\"rates\" class=\"page-link\">Bank Service Fees</a></div></div></li>\t\
         \t\t\t<li><a id=\"locator\" class=\"menu-main\" href=\"#\">Locator</a><div\
@@ -143,33 +146,31 @@ interactions:
         \ class=\"submenu\" rel=\"personal|menu_1_1\">Branch Banking</a></li><li><a\
         \ href=\"#\" style=\"cursor:default;color:#333;\" class=\"submenu\" rel=\"\
         personal|menu_1_1\">ATM Banking</a><ul><li><a href=\"/p/1/33/atm\" class=\"\
-        submenu\" rel=\"personal|menu_1_1\">ATM</a></li><li><a href=\"/p/1/36/cash-acceptance-machine\"\
-        \ class=\"submenu\" rel=\"personal|menu_1_1\">Cash Acceptance Machine</a></li></ul></li><li><a\
+        submenu\" rel=\"personal|menu_1_1\">ATM</a></li><li><a href=\"/p/1/36/cash-accept-machine\"\
+        \ class=\"submenu\" rel=\"personal|menu_1_1\">Cash Accept Machine</a></li></ul></li><li><a\
         \ href=\"/p/0/16/remittance\" class=\"submenu\" rel=\"personal|menu_1_1\"\
         >Remittance</a></li><li><a href=\"/p/0/90/foreign-exchange\" class=\"submenu\"\
-        \ rel=\"personal|menu_1_1\">Foreign Exchange</a></li></ul></li><li id=\"menu_1_2\"\
-        ><a href=\"#\">Deposits</a><ul><li><a href=\"/p/0/18/savings\" class=\"submenu\"\
-        \ rel=\"personal|menu_1_2\">Savings</a></li><li><a href=\"/p/0/20/checking\"\
-        \ class=\"submenu\" rel=\"personal|menu_1_2\">Checking</a></li><li><a href=\"\
-        /p/0/22/time-deposit\" class=\"submenu\" rel=\"personal|menu_1_2\">Time Deposit</a></li></ul></li><li\
-        \ id=\"menu_1_4\"><a href=\"#\">Cards</a><ul><li><a href=\"/p/0/26/credit-cards\"\
-        \ class=\"submenu\" rel=\"personal|menu_1_4\">Credit Cards</a></li><li><a\
-        \ href=\"/p/0/27/debit-cards\" class=\"submenu\" rel=\"personal|menu_1_4\"\
-        >Debit Cards</a></li><li><a href=\"/p/0/30/gift-cards\" class=\"submenu\"\
-        \ rel=\"personal|menu_1_4\">Gift Cards</a></li><li><a href=\"#\" style=\"\
+        \ rel=\"personal|menu_1_1\">Foreign Exchange</a></li><li><a href=\"/p/0/172/bpi-online-beta\"\
+        \ class=\"submenu\" rel=\"personal|menu_1_1\">BPI Online Beta</a></li></ul></li><li\
+        \ id=\"menu_1_2\"><a href=\"#\">Deposits</a><ul><li><a href=\"/p/0/18/savings\"\
+        \ class=\"submenu\" rel=\"personal|menu_1_2\">Savings</a></li><li><a href=\"\
+        /p/0/20/checking\" class=\"submenu\" rel=\"personal|menu_1_2\">Checking</a></li><li><a\
+        \ href=\"/p/0/22/time-deposit\" class=\"submenu\" rel=\"personal|menu_1_2\"\
+        >Time Deposit</a></li></ul></li><li id=\"menu_1_4\"><a href=\"#\">Cards</a><ul><li><a\
+        \ href=\"/p/0/26/credit-cards\" class=\"submenu\" rel=\"personal|menu_1_4\"\
+        >Credit Cards</a></li><li><a href=\"/p/0/27/debit-cards\" class=\"submenu\"\
+        \ rel=\"personal|menu_1_4\">Debit Cards</a></li><li><a href=\"#\" style=\"\
         cursor:default;color:#333;\" class=\"submenu\" rel=\"personal|menu_1_4\">Prepaid\
-        \ Cards</a><ul><li><a href=\"/p/1/105/my-eprepaid\" class=\"submenu\" rel=\"\
-        personal|menu_1_4\">My ePrepaid</a></li><li><a href=\"/p/1/114/more-fun-visa-card\"\
-        \ class=\"submenu\" rel=\"personal|menu_1_4\">More Fun Visa Card</a></li><li><a\
-        \ href=\"/p/1/1319/amore-visa-prepaid\" class=\"submenu\" rel=\"personal|menu_1_4\"\
-        >Amore Visa Prepaid</a></li></ul></li></ul></li><li id=\"menu_1_3\"><a href=\"\
-        #\">Loans</a><ul><li><a href=\"/p/0/34/auto-loan\" class=\"submenu\" rel=\"\
-        personal|menu_1_3\">Auto Loan</a></li><li><a href=\"/p/0/36/housing-loan\"\
-        \ class=\"submenu\" rel=\"personal|menu_1_3\">Housing Loan</a></li><li><a\
-        \ href=\"/p/0/38/personal-loan\" class=\"submenu\" rel=\"personal|menu_1_3\"\
-        >Personal Loan</a></li><li><a href=\"/p/0/40/ka-negosyo-loan\" class=\"submenu\"\
-        \ rel=\"personal|menu_1_3\">Ka-Negosyo Loan</a></li></ul></li><li id=\"menu_1_5\"\
-        ><a href=\"#\">Investments</a><ul><li><a href=\"/p/0/43/investment-funds\"\
+        \ Cards</a><ul><li><a href=\"/p/1/1319/amore-visa-prepaid\" class=\"submenu\"\
+        \ rel=\"personal|menu_1_4\">Amore Visa Prepaid</a></li><li><a href=\"/p/1/2010/bpi-epay-mastercard\"\
+        \ class=\"submenu\" rel=\"personal|menu_1_4\">BPI ePay Mastercard</a></li></ul></li></ul></li><li\
+        \ id=\"menu_1_3\"><a href=\"#\">Loans</a><ul><li><a href=\"/p/0/34/auto-loan\"\
+        \ class=\"submenu\" rel=\"personal|menu_1_3\">Auto Loan</a></li><li><a href=\"\
+        /p/0/36/housing-loan\" class=\"submenu\" rel=\"personal|menu_1_3\">Housing\
+        \ Loan</a></li><li><a href=\"/p/0/38/personal-loan\" class=\"submenu\" rel=\"\
+        personal|menu_1_3\">Personal Loan</a></li><li><a href=\"/p/0/40/ka-negosyo-loan\"\
+        \ class=\"submenu\" rel=\"personal|menu_1_3\">Ka-Negosyo Loan</a></li></ul></li><li\
+        \ id=\"menu_1_5\"><a href=\"#\">Investments</a><ul><li><a href=\"/p/0/43/investment-funds\"\
         \ class=\"submenu\" rel=\"personal|menu_1_5\">Investment Funds</a></li><li><a\
         \ href=\"/p/0/45/stock-market-investing\" class=\"submenu\" rel=\"personal|menu_1_5\"\
         >Stock Market Investing</a></li><li><a href=\"/p/0/160/fixed-income-securities\"\
@@ -202,12 +203,12 @@ interactions:
         /p/1/896/asset-management\" class=\"submenu\" rel=\"business|menu_4_11\">Asset\
         \ Management</a></li><li><a href=\"/p/1/897/fixed-lncome-securities\" class=\"\
         submenu\" rel=\"business|menu_4_11\">Fixed lncome Securities</a></li><li><a\
-        \ href=\"#\" style=\"cursor:default;color:#333;\" class=\"submenu\" rel=\"\
-        business|menu_4_11\">Stock Brokering</a></li></ul></li><li><a href=\"/p/0/72/merchant-accreditation\"\
+        \ href=\"/p/1/898/stock-brokering\" class=\"submenu\" rel=\"business|menu_4_11\"\
+        >Stock Brokering</a></li></ul></li><li><a href=\"/p/0/72/merchant-accreditation\"\
         \ class=\"submenu\" rel=\"business|menu_4_11\">Merchant Accreditation</a></li><li><a\
         \ href=\"/p/0/98/employment-benefits\" class=\"submenu\" rel=\"business|menu_4_11\"\
-        >Employment Benefits</a></li><li><a href=\"#\" style=\"cursor:default;color:#333;\"\
-        \ class=\"submenu\" rel=\"business|menu_4_11\">Insurance Non-Life</a></li></ul></li></ul>\t\
+        >Employment Benefits</a></li><li><a href=\"/p/0/99/insurance-non-life\" class=\"\
+        submenu\" rel=\"business|menu_4_11\">Insurance Non-Life</a></li></ul></li></ul>\t\
         \t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<a href=\"/home/menu/overseas-filipino\"\
         >Overseas Filipino</a>\r\n\t\t\t\t\t\t\t\t\t\t<ul class=\"filip\"><li id=\"\
         menu_5_0\"><a href=\"/home/menu/overseas-filipino\">Home</a><li id=\"menu_5_12\"\
@@ -234,7 +235,7 @@ interactions:
         \ class=\"submenu\" rel=\"filip|menu_5_14\">Pamana Padala How to Enroll in\
         \ Online Banking Philippine Based</a></li><li><a href=\"#\" style=\"cursor:default;color:#333;\"\
         \ class=\"submenu\" rel=\"filip|menu_5_14\">Pamana Padala How to Enroll in\
-        \ Online Banking Overseas-Based</a></li><li><a href=\"/p/1/1622/pamana-padala-how-to-enroll-in-3rd-party-funds-transfer-philippine-bas\"\
+        \ Online Banking Overseas-Based</a></li><li><a href=\"#\" style=\"cursor:default;color:#333;\"\
         \ class=\"submenu\" rel=\"filip|menu_5_14\">Pamana Padala How to Enroll in\
         \ 3rd Party Funds Transfer Philippine-Bas</a></li><li><a href=\"#\" style=\"\
         cursor:default;color:#333;\" class=\"submenu\" rel=\"filip|menu_5_14\">Pamana\
@@ -244,32 +245,28 @@ interactions:
         \ class=\"submenu\" rel=\"filip|menu_5_14\">Pamana Padala Frequently Asked\
         \ Questions</a></li><li><a href=\"/p/1/1705/pamana-padala-terms-and-conditions\"\
         \ class=\"submenu\" rel=\"filip|menu_5_14\">Pamana Padala Terms and Conditions</a></li></ul></li></ul></li><li\
-        \ id=\"menu_5_15\"><a href=\"#\">Cards</a><ul><li><a href=\"#\" style=\"cursor:default;color:#333;\"\
+        \ id=\"menu_5_15\"><a href=\"#\">Cards</a><ul><li><a href=\"/p/0/144/credit\"\
         \ class=\"submenu\" rel=\"filip|menu_5_15\">Credit</a></li><li><a href=\"\
-        #\" style=\"cursor:default;color:#333;\" class=\"submenu\" rel=\"filip|menu_5_15\"\
-        >Debit</a></li><li><a href=\"/p/0/146/prepaid\" class=\"submenu\" rel=\"filip|menu_5_15\"\
-        >Prepaid</a></li></ul></li><li id=\"menu_5_16\"><a href=\"#\">Loans</a><ul><li><a\
-        \ href=\"/p/0/147/auto\" class=\"submenu\" rel=\"filip|menu_5_16\">Auto</a></li><li><a\
-        \ href=\"/p/0/148/housing\" class=\"submenu\" rel=\"filip|menu_5_16\">Housing</a></li><li><a\
-        \ href=\"/p/0/149/personal\" class=\"submenu\" rel=\"filip|menu_5_16\">Personal</a></li></ul></li><li\
+        /p/0/145/debit\" class=\"submenu\" rel=\"filip|menu_5_15\">Debit</a></li><li><a\
+        \ href=\"/p/0/146/prepaid\" class=\"submenu\" rel=\"filip|menu_5_15\">Prepaid</a></li></ul></li><li\
+        \ id=\"menu_5_16\"><a href=\"#\">Loans</a><ul><li><a href=\"/p/0/147/auto\"\
+        \ class=\"submenu\" rel=\"filip|menu_5_16\">Auto</a></li><li><a href=\"/p/0/148/housing\"\
+        \ class=\"submenu\" rel=\"filip|menu_5_16\">Housing</a></li><li><a href=\"\
+        /p/0/149/personal\" class=\"submenu\" rel=\"filip|menu_5_16\">Personal</a></li></ul></li><li\
         \ id=\"menu_5_17\"><a href=\"#\">Investments</a><ul><li><a href=\"/p/0/150/bpi-investment-funds\"\
         \ class=\"submenu\" rel=\"filip|menu_5_17\">BPI Investment Funds</a></li></ul></li><li\
-        \ id=\"menu_5_18\"><a href=\"#\">Insurance</a><ul><li><a href=\"#\" style=\"\
-        cursor:default;color:#333;\" class=\"submenu\" rel=\"filip|menu_5_18\">Life\
-        \ Insurance</a></li><li><a href=\"/p/0/152/non-life-insurance\" class=\"submenu\"\
-        \ rel=\"filip|menu_5_18\">Non Life Insurance</a></li></ul></li></ul>\t\t\t\
-        \t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t<div class=\"clear\"\
-        ></div>\r\n\t\t</div>\r\n\t</div>\r\n\t<div class=\"clear\"></div>\r\n</div>\r\
-        \n</div>\r\n<div id=\"addon-page\">\r\n\t<div class=\"main\">\r\n\t\t<div\
-        \ id=\"page-left\">\r\n\t\t\t<div id=\"banner-left\">\r\n\t\t\t\tInvestment\
-        \ Funds Daily Prices\t\t\t</div>\r\n\t\t\t<div id=\"left-menu\" class=\"promos-side-menu\"\
-        >\r\n\t\t\t\t<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\t\t    </div>\r\n\t\t\t<div\
-        \ id=\"left-ads\">\r\n\t\t\t\t<h4>You might be interested in:</h4><div class=\"\
-        ad-banner\">\r\n\t\t<p><a href=\"https://bpiexpressonline.com/media/uploads/57cf71c80554c_Downloadable_Application_Form__UITF_082216.pdf\"\
-        ><img src=\"/media/uploads/57cfaf146276f_BPI_C0057_EOL-Banner-Ad_FA2_LOU.jpg\"\
-        \ style=\"width:176px; height:69px;\" /></a></p>\r\n\t</div>\t\t\t</div>\r\
-        \n\t\t</div>\r\n\t\t<div id=\"page-right\">\r\n\t\t\t<div id=\"addon-banner\"\
-        ><img src=\"/media/uploads/58ed9e48c6e5d_5591e1165c033_496_BPI_EOL_Inside_Banner_Personal-InvestmentFunds_FA.jpg\"\
+        \ id=\"menu_5_18\"><a href=\"#\">Insurance</a><ul><li><a href=\"/p/0/151/life-insurance\"\
+        \ class=\"submenu\" rel=\"filip|menu_5_18\">Life Insurance</a></li><li><a\
+        \ href=\"/p/0/152/non-life-insurance\" class=\"submenu\" rel=\"filip|menu_5_18\"\
+        >Non Life Insurance</a></li></ul></li></ul>\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\
+        \t\t\t\t\t</ul>\r\n\t\t\t\t\t\t<div class=\"clear\"></div>\r\n\t\t</div>\r\
+        \n\t</div>\r\n\t<div class=\"clear\"></div>\r\n</div>\r\n</div>\r\n<div id=\"\
+        addon-page\">\r\n\t<div class=\"main\">\r\n\t\t<div id=\"page-left\">\r\n\t\
+        \t\t<div id=\"banner-left\">\r\n\t\t\t\tInvestment Funds Daily Prices\t\t\t\
+        </div>\r\n\t\t\t<div id=\"left-menu\" class=\"promos-side-menu\">\r\n\t\t\t\
+        \t<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\t\t    </div>\r\n\t\t\t<div id=\"left-ads\"\
+        >\r\n\t\t\t\t\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div id=\"page-right\">\r\n\
+        \t\t\t<div id=\"addon-banner\"><img src=\"/media/uploads/5b10da4aea939_5591e1165c033_496_BPI_EOL_Inside_Banner_Personal-InvestmentFunds_FA.jpg\"\
         \ style=\"width:698px; height:148px;\" /></div>\r\n\t\t\t<div id=\"addon-cont\"\
         >\r\n\t\t\t\t<p><p style=\"text-align: right;\">&nbsp;</p>\n\n<p><strong>To\
         \ view the updated Investment Fund Prices, please click on these links:</strong></p>\n\
@@ -277,143 +274,149 @@ interactions:
         >BPI Investment Funds</a></li>\n\t<li><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-funds/\"\
         >Odyssey Funds</a></li>\n\t<li><a href=\"https://www.bpiassetmanagement.com/pages/pera-personal-equity--retirement-account/\"\
         >BPI PERA UITFs</a></li>\n\t<li><a href=\"http://www.alfmmutualfunds.com/\"\
-        \ target=\"_blank\">Mutual Funds</a></li>\n</ul>\n\n<p><br />\n<span style=\"\
-        color:rgb(255, 0, 0)\"><strong><u>Trust Funds - Prices Per Unit</u>&nbsp;&nbsp;&nbsp;(As\
-        \ of April 11, 2017)</strong></span></p>\n\n<table border=\"1\" cellpadding=\"\
-        1\" cellspacing=\"1\" style=\"width:650px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t\
-        <td colspan=\"4\" style=\"text-align: center; background-color: rgb(149, 20,\
-        \ 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>Peso Funds</strong></span></td>\n\
-        \t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"background-color: rgb(100, 100, 100);\"\
-        >&nbsp;</td>\n\t\t\t<td style=\"text-align: center; background-color: rgb(100,\
-        \ 100, 100);\"><span style=\"color:rgb(255, 255, 255)\"><strong>Net Asset\
-        \ Value Per Unit</strong></span></td>\n\t\t\t<td style=\"text-align: center;\
+        \ target=\"_blank\">Mutual Funds</a></li>\n</ul>\n\n<p><br />\n<strong><span\
+        \ style=\"color:rgb(255, 0, 0)\"><u>Trust Funds - Prices Per Unit</u>&nbsp;&nbsp;&nbsp;(As\
+        \ of&nbsp;May 31<strong><span style=\"color:rgb(255, 0, 0)\">, 2018<span style=\"\
+        color:rgb(255, 0, 0)\">)</span></span></strong></span></strong></p>\n\n<table\
+        \ border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:650px\">\n\
+        \t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"text-align: center; background-color:\
+        \ rgb(149, 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>Peso\
+        \ Funds</strong></span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"background-color:\
+        \ rgb(100, 100, 100);\">&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\
         \ background-color: rgb(100, 100, 100);\"><span style=\"color:rgb(255, 255,\
-        \ 255)\"><strong>Early Redemption Fee</strong></span></td>\n\t\t\t<td style=\"\
-        text-align: center; background-color: rgb(100, 100, 100);\"><span style=\"\
-        color:rgb(255, 255, 255)\"><strong>Minimum Holding Period</strong></span></td>\n\
+        \ 255)\"><strong>Net Asset Value Per Unit</strong></span></td>\n\t\t\t<td\
+        \ style=\"text-align: center; background-color: rgb(100, 100, 100);\"><span\
+        \ style=\"color:rgb(255, 255, 255)\"><strong>Early Redemption Fee</strong></span></td>\n\
+        \t\t\t<td style=\"text-align: center; background-color: rgb(100, 100, 100);\"\
+        ><span style=\"color:rgb(255, 255, 255)\"><strong>Minimum Holding Period</strong></span></td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149,\
         \ 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>BPI Investment\
         \ Funds</strong></span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-short-term-fund/\"\
         >BPI Short Term Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\"\
-        >142.83</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
+        >145.54</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
         \t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\
         \t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-premium-bond-fund/\"\
         >BPI Premium Bond Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">177.54</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
+        \ center;\">180.15</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
         \ center;\">0</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0\
         \ calendar days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/abf-philippines-bond-index-fund/\"\
         >ABF Phil. Bond Index Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">215.80</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
+        \ center;\">210.04</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
         >0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t\
         </tr>\n\t\t<tr>\n\t\t\t<td>BPI Money Market Fund (a)</td>\n\t\t\t<td>\n\t\t\
-        \t<p style=\"text-align: center;\">233.91</p>\n\t\t\t</td>\n\t\t\t<td style=\"\
+        \t<p style=\"text-align: center;\">239.14</p>\n\t\t\t</td>\n\t\t\t<td style=\"\
         text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar\
         \ days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-philippine-equity-index-fund\"\
         >BPI Philippine Equity Index Fund</a></td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">102.13</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\
+        \ center;\">100.54</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\
         \t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\t\
         <tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-philippine-high-dividend-equity-fund\"\
         >BPI Philippine High Dividend Equity Fund</a></td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">129.29</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\
-        \t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\t\
-        <tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-balanced-fund/\"\
-        >BPI Balanced Fund</a></td>\n\t\t\t<td style=\"text-align: center;\">172.70</td>\n\
-        \t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">0 calendar days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"\
-        https://www.bpiassetmanagement.com/pages/bpi-equity-value-fund\">BPI Equity\
-        \ Value Fund</a></td>\n\t\t\t<td style=\"text-align: center;\">165.46</td>\n\
-        \t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">0 calendar days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BPI Fixed\
-        \ Income Portfolio Fund-of-Funds (e)</td>\n\t\t\t<td style=\"text-align: center;\"\
-        >95.98</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"\
-        text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BPI\
-        \ Philippine Consumer Equity Index Fund</td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">104.42</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\
-        \t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\t\
-        <tr>\n\t\t\t<td>BPI Philippine Infrastructure Equity Index Fund</td>\n\t\t\
-        \t<td style=\"text-align: center;\">107.61</td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\
-        \t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149,\
-        \ 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>Odyssey Funds\
-        \ </strong></span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-peso-medium-term-bond-fund\"\
+        \ center;\">\n\t\t\t<p style=\"text-align: justify;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+        \ 126.38</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
+        \t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\
+        \t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-balanced-fund/\"\
+        >BPI Balanced Fund</a></td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\
+        \t<p style=\"text-align: left;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+        \ 171.66</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
+        \t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\
+        \t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-equity-value-fund\"\
+        >BPI Equity Value Fund</a></td>\n\t\t\t<td style=\"text-align: center;\">\n\
+        \t\t\t<p style=\"text-align: left;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+        \ 162.33</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
+        \t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\
+        \t<tr>\n\t\t\t<td>BPI Fixed Income Portfolio Fund-of-Funds (e)</td>\n\t\t\t\
+        <td style=\"text-align: center;\">\n\t\t\t<p style=\"text-align: left;\">&nbsp;\
+        \ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 95.98</p>\n\t\t\t</td>\n\t\t\t\
+        <td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\"\
+        >0 calendar days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BPI Philippine Consumer\
+        \ Equity Index Fund</td>\n\t\t\t<td style=\"text-align: center;\">\n\t\t\t\
+        <p style=\"text-align: left;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\
+        \ 101.32</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
+        \t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\
+        \t<tr>\n\t\t\t<td>BPI Philippine Infrastructure Equity Index Fund</td>\n\t\
+        \t\t<td style=\"text-align: center;\">\n\t\t\t<p style=\"text-align: left;\"\
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+        \ 89.31</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
+        \t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\
+        \t<tr>\n\t\t\t<td>BPI Catholic Values Global Equity Feeder Fund</td>\n\t\t\
+        \t<td style=\"text-align: center;\">\n\t\t\t<p style=\"text-align: left;\"\
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+        \ 112.01</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\
+        \t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\
+        \t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149, 20, 21);\"\
+        ><span style=\"color:rgb(255, 255, 255)\"><strong>Odyssey Funds </strong></span></td>\n\
+        \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-peso-medium-term-bond-fund\"\
         >Odyssey Peso Medium Term Bond Fund (b)</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">124.66</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">126.16</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-peso-bond-fund/\"\
         >Odyssey Peso Bond Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">269.92</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
+        \ center;\">261.26</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
         >0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t\
-        </tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-tax-exempt-peso-fixed-income-fund/\"\
-        >Odyssey Tax Exempt Peso Fixed Income Fund</a></td>\n\t\t\t<td>\n\t\t\t<p\
-        \ style=\"text-align: center;\">285.50</p>\n\t\t\t</td>\n\t\t\t<td style=\"\
-        text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar\
-        \ days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-diversified-capital-fund/\"\
+        </tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-diversified-capital-fund/\"\
         >Odyssey Diversified Capital Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">174.95</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">169.18</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-diversified-balanced-fund/\"\
         >Odyssey Diversified Balanced Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">194.02</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">185.88</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-philippine-equity-fund/\"\
         >Odyssey Philippine Equity Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">456.76</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
+        \ center;\">442.81</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
         >0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t\
         </tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-philippine-high-conviction-equity-fund/\"\
         >Odyssey Philippine High Conviction Equity Fund</a></td>\n\t\t\t<td>\n\t\t\
-        \t<p style=\"text-align: center;\">143.73</p>\n\t\t\t</td>\n\t\t\t<td style=\"\
+        \t<p style=\"text-align: center;\">138.70</p>\n\t\t\t</td>\n\t\t\t<td style=\"\
         text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar\
-        \ days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Odyssey Tax Exempt Philippine\
-        \ Equity Fund</td>\n\t\t\t<td style=\"text-align: center;\">374.89</td>\n\t\
-        \t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">0 calendar days</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\
-        \n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:650px\"\
-        >\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"text-align: center;\
-        \ background-color: rgb(149, 20, 21);\"><span style=\"color:rgb(255, 255,\
-        \ 255)\"><strong>US Dollar Funds</strong></span></td>\n\t\t</tr>\n\t\t<tr>\n\
-        \t\t\t<td style=\"text-align: center; background-color: rgb(100, 100, 100);\"\
-        >&nbsp;</td>\n\t\t\t<td style=\"text-align: center; background-color: rgb(100,\
-        \ 100, 100);\"><strong><span style=\"color:rgb(255, 255, 255)\">Net Asset\
-        \ Value Per Unit</span></strong></td>\n\t\t\t<td style=\"text-align: center;\
+        \ days</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table border=\"1\" cellpadding=\"\
+        1\" cellspacing=\"1\" style=\"width:650px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t\
+        <td colspan=\"4\" style=\"text-align: center; background-color: rgb(149, 20,\
+        \ 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>US Dollar Funds</strong></span></td>\n\
+        \t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center; background-color:\
+        \ rgb(100, 100, 100);\">&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\
         \ background-color: rgb(100, 100, 100);\"><strong><span style=\"color:rgb(255,\
-        \ 255, 255)\">Early Redemption Fee</span></strong></td>\n\t\t\t<td style=\"\
+        \ 255, 255)\">Net Asset Value Per Unit</span></strong></td>\n\t\t\t<td style=\"\
         text-align: center; background-color: rgb(100, 100, 100);\"><strong><span\
-        \ style=\"color:rgb(255, 255, 255)\">Minimum Holding Period</span></strong></td>\n\
+        \ style=\"color:rgb(255, 255, 255)\">Early Redemption Fee</span></strong></td>\n\
+        \t\t\t<td style=\"text-align: center; background-color: rgb(100, 100, 100);\"\
+        ><strong><span style=\"color:rgb(255, 255, 255)\">Minimum Holding Period</span></strong></td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149,\
         \ 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>BPI Investment\
         \ Funds</strong></span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-us-dollar-short-term-fund\"\
         >BPI U.S. Dollar Short Term Fund (c)</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">295.97</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">299.73</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">0 calendar\
         \ days</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-global-bond-fund-of-funds/\"\
         >BPI Global Bond&nbsp;Fund-of-Funds</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">166.85</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">166.91</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">0 calendar\
         \ days</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/philippine-dollar-bond-index-fund/\"\
         >Philippine Dollar Bond Index Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">206.38</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">205.96</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">0 calendar\
         \ days</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-european-equity-feeder-fund\"\
         >BPI European Equity Feeder Fund (d)</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">93.92</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">107.99</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">0 calendar\
         \ days</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-us-equity-index-feeder-fund\"\
         >BPI US Equity Index Feeder Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">123.97</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
+        \ center;\">143.16</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
         >0</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">0 calendar days</p>\n\
         \t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/bpi-global-equity-fund-of-funds/\"\
         >BPI Global Equity Fund-of-Funds</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">301.22</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
+        \ center;\">353.87</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
         >0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t\
         </tr>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149,\
         \ 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>Odyssey Funds</strong></span></td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-philippine-dollar-bond-fund/\"\
         >Odyssey Philippine Dollar Bond Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"\
-        text-align: center;\">27.10</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
+        text-align: center;\">26.84</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
         \ center;\">0</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">0 calendar\
         \ days</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"https://www.bpiassetmanagement.com/pages/odyssey-asia-pacific-high-dividend-equity-fund/\"\
         >Odyssey Asia Pacific High Dividend Equity Fund</a></td>\n\t\t\t<td>\n\t\t\
-        \t<p style=\"text-align: center;\">10.51</p>\n\t\t\t</td>\n\t\t\t<td style=\"\
+        \t<p style=\"text-align: center;\">11.54</p>\n\t\t\t</td>\n\t\t\t<td style=\"\
         text-align: center;\">0</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\"\
         >0 calendar days</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table\
         \ align=\"center\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"\
@@ -427,7 +430,7 @@ interactions:
         \ directly through the Asset Mgt &amp; Trust Group</td>\n\t\t</tr>\n\t</tbody>\n\
         </table>\n\n<p style=\"text-align: justify;\">&nbsp;</p>\n\n<p style=\"text-align:\
         \ justify;\"><strong><span style=\"color:rgb(255, 0, 0)\"><u>BPI PERA UITFs&nbsp;-\
-        \ Prices Per Unit</u>&nbsp;&nbsp;&nbsp;(As of April 11, 2017)</span></strong></p>\n\
+        \ Prices Per Unit</u>&nbsp;&nbsp;&nbsp;(As of&nbsp;May 31, 2018)</span></strong></p>\n\
         \n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:650px\"\
         >\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"text-align: center;\
         \ background-color: rgb(149, 20, 21);\"><span style=\"color:rgb(255, 255,\
@@ -443,18 +446,18 @@ interactions:
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149,\
         \ 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>PERA FUNDS</strong></span></td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>BPI PERA Money Market Fund&nbsp;&nbsp;&nbsp;&nbsp;</p>\n\
-        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00</td>\n\t\t\t<td\
+        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.02</td>\n\t\t\t<td\
         \ style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\"\
         >0 calendar days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>BPI PERA\
         \ Government Bond&nbsp;Fund&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n\t\t\t\
-        </td>\n\t\t\t<td style=\"text-align: center;\">1.04</td>\n\t\t\t<td style=\"\
+        </td>\n\t\t\t<td style=\"text-align: center;\">0.99</td>\n\t\t\t<td style=\"\
         text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar\
         \ days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>BPI PERA Corporate\
         \ Income Fund&nbsp;&nbsp;&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">0.96</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\
+        \ center;\">0.98</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\
         \t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t</tr>\n\t\t\
         <tr>\n\t\t\t<td>\n\t\t\t<p>BPI PERA Equity Fund</p>\n\t\t\t</td>\n\t\t\t<td\
-        \ style=\"text-align: center;\">1.04</td>\n\t\t\t<td style=\"text-align: center;\"\
+        \ style=\"text-align: center;\">1.02</td>\n\t\t\t<td style=\"text-align: center;\"\
         >0</td>\n\t\t\t<td style=\"text-align: center;\">0 calendar days</td>\n\t\t\
         </tr>\n\t</tbody>\n</table>\n\n<p style=\"text-align: justify;\"><br />\n\
         Prior to opening any BPI Investment Fund, investors are required to take a\
@@ -477,66 +480,68 @@ interactions:
         \ of future results.&nbsp; BPI Asset Management is not liable for losses,\
         \ unless upon willful default, evident bad faith or gross negligence.</p>\n\
         \n<p><br />\n<span style=\"color:rgb(255, 0, 0)\"><u><strong>Mutual Funds\
-        \ - Prices Per Share</strong></u><strong>&nbsp; (As of April 11, 2017)</strong></span></p>\n\
-        \n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:650px\"\
-        >\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color:\
-        \ rgb(149, 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>Peso\
-        \ Funds</strong></span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align:\
-        \ center; background-color: rgb(100, 100, 100);\">&nbsp;</td>\n\t\t\t<td style=\"\
-        text-align: center; background-color: rgb(100, 100, 100);\"><span style=\"\
-        color:rgb(255, 255, 255)\"><strong>Net Asset Value Per Share</strong></span></td>\n\
-        \t\t\t<td style=\"text-align: center; background-color: rgb(100, 100, 100);\"\
-        ><span style=\"color:rgb(255, 255, 255)\"><strong>Early Redemption Fee</strong></span></td>\n\
+        \ - Prices Per Share</strong></u><strong>&nbsp; (As of&nbsp;May 31</strong></span><span\
+        \ style=\"color:rgb(255, 0, 0)\"><strong>, 2018)</strong></span></p>\n\n<table\
+        \ border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:650px\">\n\
+        \t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149,\
+        \ 20, 21);\"><span style=\"color:rgb(255, 255, 255)\"><strong>Peso Funds</strong></span></td>\n\
+        \t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center; background-color:\
+        \ rgb(100, 100, 100);\">&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\
+        \ background-color: rgb(100, 100, 100);\"><span style=\"color:rgb(255, 255,\
+        \ 255)\"><strong>Net Asset Value Per Share</strong></span></td>\n\t\t\t<td\
+        \ style=\"text-align: center; background-color: rgb(100, 100, 100);\"><span\
+        \ style=\"color:rgb(255, 255, 255)\"><strong>Early Redemption Fee</strong></span></td>\n\
         \t\t\t<td style=\"text-align: center; background-color: rgb(100, 100, 100);\"\
         ><span style=\"color:rgb(255, 255, 255)\"><strong>Minimum Holding Period</strong></span></td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/#peso_bond_fund\"\
-        >ALFM Peso Bond Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\"\
-        >331.70</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\
+        >ALFM Peso Bond Fund</a></td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+        \ 338.74</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\
         \t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">90 days</p>\n\t\t\t</td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/#growth_fund\"\
-        >ALFM Growth Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\"\
-        >264.35</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\
-        \t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">90 days</p>\n\t\t\t</td>\n\
-        \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/#money_market_fund\"\
-        >ALFM Money Market Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">116.12</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
-        >1.00%</td>\n\t\t\t<td style=\"text-align: center;\">7 days</td>\n\t\t</tr>\n\
-        \t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/#phil_stock_fund\"\
-        >Phil. Stock Index Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">843.08</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
-        >1.00%</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">90 days</p>\n\
-        \t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/uploads/Ekklesia-Prospectus-Jan-2011.pdf\"\
-        >Ekklesia Mutual Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\"\
-        >2.0913</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\
+        >ALFM Growth Fund</a></td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;257.00</p>\n\
+        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\t\t\t<td>\n\
+        \t\t\t<p style=\"text-align: center;\">90 days</p>\n\t\t\t</td>\n\t\t</tr>\n\
+        \t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/#money_market_fund\"\
+        >ALFM Money Market Fund</a></td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;118.85</p>\n\
+        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\t\t\t<td\
+        \ style=\"text-align: center;\">7 days</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><a\
+        \ href=\"http://www.alfmmutualfunds.com/#phil_stock_fund\">Phil. Stock Index\
+        \ Fund</a></td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;832.17</p>\n\
+        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\t\t\t<td>\n\
+        \t\t\t<p style=\"text-align: center;\">90 days</p>\n\t\t\t</td>\n\t\t</tr>\n\
+        \t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/uploads/Ekklesia-Prospectus-Jan-2011.pdf\"\
+        >Ekklesia Mutual Fund</a></td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1156</p>\n\
+        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\t\t\t<td>\n\
+        \t\t\t<p style=\"text-align: center;\">180 days</p>\n\t\t\t</td>\n\t\t</tr>\n\
+        \t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/uploads/BPSF-Prospectus-June2010.pdf\"\
+        >Solidaritas Fund</a></td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+        \ 2.0758</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\
         \t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">180 days</p>\n\t\t\t</td>\n\
-        \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/uploads/BPSF-Prospectus-June2010.pdf\"\
-        >Bahay Pari Solidaritas Fund</a></td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align:\
-        \ center;\">2.1165</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\"\
-        >1.00%</td>\n\t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">180 days</p>\n\
-        \t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table border=\"1\" cellpadding=\"\
-        1\" cellspacing=\"1\" style=\"height:200px; width:649px\">\n\t<caption>\n\t\
-        <p style=\"text-align: center;\">&nbsp;</p>\n\t</caption>\n\t<tbody>\n\t\t\
-        <tr>\n\t\t\t<td colspan=\"4\" style=\"background-color: rgb(149, 20, 21);\"\
-        ><span style=\"color:rgb(255, 255, 255)\"><strong>Foreign Currency Denominated\
-        \ Funds</strong></span></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align:\
-        \ center; background-color: rgb(100, 100, 100);\">&nbsp;</td>\n\t\t\t<td style=\"\
+        \t\t</tr>\n\t</tbody>\n</table>\n\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"\
+        1\" style=\"height:200px; width:649px\">\n\t<caption>\n\t<p style=\"text-align:\
+        \ center;\">&nbsp;</p>\n\t</caption>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"\
+        4\" style=\"background-color: rgb(149, 20, 21);\"><span style=\"color:rgb(255,\
+        \ 255, 255)\"><strong>Foreign Currency Denominated Funds</strong></span></td>\n\
+        \t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center; background-color:\
+        \ rgb(100, 100, 100);\">&nbsp;</td>\n\t\t\t<td style=\"text-align: center;\
+        \ background-color: rgb(100, 100, 100);\"><strong><span style=\"color:rgb(255,\
+        \ 255, 255)\">Net Asset Value Per Share</span></strong></td>\n\t\t\t<td style=\"\
         text-align: center; background-color: rgb(100, 100, 100);\"><strong><span\
-        \ style=\"color:rgb(255, 255, 255)\">Net Asset Value Per Share</span></strong></td>\n\
-        \t\t\t<td style=\"text-align: center; background-color: rgb(100, 100, 100);\"\
-        ><strong><span style=\"color:rgb(255, 255, 255)\">Early Redemption Fee</span></strong></td>\n\
+        \ style=\"color:rgb(255, 255, 255)\">Early Redemption Fee</span></strong></td>\n\
         \t\t\t<td style=\"text-align: center; background-color: rgb(100, 100, 100);\"\
         ><strong><span style=\"color:rgb(255, 255, 255)\">Minimum Holding Period</span></strong></td>\n\
         \t\t</tr>\n\t\t<tr>\n\t\t\t<td><a href=\"http://www.alfmmutualfunds.com/#dollar_bond_fund\"\
         >ALFM Dollar Bond Fund (USD)</a></td>\n\t\t\t<td style=\"text-align: center;\"\
-        >436.44</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\t\t\t<td>\n\
+        >\n\t\t\t<p style=\"text-align: left;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;442.24</p>\n\
+        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\t\t\t<td>\n\
         \t\t\t<p style=\"text-align: center;\">180 days</p>\n\t\t\t</td>\n\t\t</tr>\n\
         \t\t<tr>\n\t\t\t<td>\n\t\t\t<p><a href=\"http://www.alfmmutualfunds.com/#euro_bond_fund\"\
         >ALFM Euro Bond Fund (EUR)</a></p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align:\
-        \ center;\">\n\t\t\t<p style=\"text-align: justify;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-        \ 210.91</p>\n\t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\
-        \t\t\t<td>\n\t\t\t<p style=\"text-align: center;\">180 days</p>\n\t\t\t</td>\n\
-        \t\t</tr>\n\t</tbody>\n</table>\n\n<p style=\"text-align: justify;\">&nbsp;</p>\n\
-        \n<p style=\"text-align: justify;\"><span style=\"color:rgb(169, 169, 169)\"\
+        \ center;\">\n\t\t\t<p style=\"text-align: left;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;212.53</p>\n\
+        \t\t\t</td>\n\t\t\t<td style=\"text-align: center;\">1.00%</td>\n\t\t\t<td>\n\
+        \t\t\t<p style=\"text-align: center;\">180 days</p>\n\t\t\t</td>\n\t\t</tr>\n\
+        \t</tbody>\n</table>\n\n<p style=\"text-align: justify;\">&nbsp;</p>\n\n<p\
+        \ style=\"text-align: justify;\"><span style=\"color:rgb(169, 169, 169)\"\
         >______________________________________________________________________________________________<br\
         \ />\nPrior to opening any ALFM Mutual Fund, investors are required to take\
         \ a Client Suitability Assessment (CSA) to ensure that the investment objective\
@@ -676,10 +681,10 @@ interactions:
     headers:
       connection: [close]
       content-type: [text/html; charset=utf-8]
-      date: ['Mon, 17 Apr 2017 04:46:17 GMT']
+      date: ['Sun, 03 Jun 2018 21:55:27 GMT']
       p3p: [CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"]
-      set-cookie: [sess_eol=3c3bcb43863c7a9291da2662832f16c7ff66f31d%7E58f448995db936-71924253;
-          path=/; secure; httponly, TS011d8f8c=016a1e8cd107d953a1fa5999d8561b1b430110ebf1750466515cb734b990e0c140ac7d09e6f07e13a4e3bdb1179402c857b3ef68e6;
+      set-cookie: [sess_eol=5b40ef099c7b76d75da46dd58e4b3d7c25ce97f6%7E5b1463cf5cfee5-21264199;
+          path=/; secure; httponly, TS011d8f8c=01d57c6724c604877603e4ca633bfc7d37973ef5c534e5357ebc9cd67b45159430c983707fb8ef94b65c741273bedce7f1966ff8e6093433e9e5277aa58c85bb74616235e6;
           Path=/]
       vary: [Accept-Encoding]
       x-frame-options: [SAMEORIGIN]

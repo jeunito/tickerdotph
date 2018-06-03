@@ -8,4 +8,4 @@ class TestBPI(unittest.TestCase):
         with vcr.use_cassette("fixtures/cassettes/institutions/bpi.yaml"):
             daily_prices = bpi.funds()
 
-            self.assertEqual(daily_prices["BPIPEIF"], 102.13)
+            self.assertEqual(daily_prices["BPIPEIF"], 100.54)
