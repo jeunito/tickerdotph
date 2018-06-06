@@ -13,7 +13,7 @@ class FundController(webapp2.RequestHandler):
         funds = bpi.funds()
         fund_price = funds.get(fund_ticker, None)
         self.response.headers['Content-Type'] = 'application/json'
-        self.response.write(json.dumps({ fund_ticker : fund_price }))
+        self.response.write(json.dumps(dict(name=fund_ticker, price=fund_price )))
 
 
 app = webapp2.WSGIApplication([
